@@ -1,0 +1,125 @@
+/* CSS Document */
+/* ************************************
+* 文件名称：index.css
+* 制 造 者：shangwenuxe
+* 制造日期：2012-03-30
+* 文件版本：V1.0
+* 内容概要：开心网首页
+* 版权所有 开心网
+************************************ */
+
+/************************************************************************************
+header
+*************************************************************************************/
+/* logo */
+.act_hd #awardHd a.logo {background:url(img/act_logo.png) no-repeat;}
+/* header bg color and image */
+.act_hd #awardHd,.act_hd #awardHd .wrap,.act_hd .hdNavMenu .on {background:#073d7b;}
+.act_hd #awardHd,.act_hd #awardHd .wrap {background:#073d7b; height:40px;}
+/* header font color */
+.act_hd .hdNavMenu,.act_hd .hdNavMenu .hdSelc,.act_hd .hdNav {color:#fff}
+.act_hd .hdNavMenu .hdSelc:hover {color:#eee;}
+.act_hd .serv_sub li a:hover {background-color:#4c85d2}
+/* body and act_main_bg and banner bg */
+.act_bg {background:url(img/act_bg.png) repeat;}
+.act_main_bg {background:url(img/act_main_bg.jpg) no-repeat center top; min-height:640px; height:auto!important; height:640px;}
+.act_wrap,.act_banner,.act_hd #awardHd .wrap {width:1000px;margin:0 auto;}
+.act_banner {background:url(img/act_banner.jpg) no-repeat left top; height:417px; overflow:hidden;}
+/* act_banner_con */
+
+/* main body con */
+.act_body  {border-top:10px solid #0c4281; background:#e5eef3; padding:0 14px 100px;}
+.clfix:before,.clfix:after {content:''; display:table;}
+.clfix:after {clear:both; overflow:hidden;}
+.clfix {*zoom:1;}
+.overfix {overflow:hidden; *overflow:visible; *zoom:1;}
+.emptyplace_rel {height:0px; width:100%; position:relative;}
+/* layout */
+.act_laylf {float:left; width:100%; margin-right:-100%;}
+.act_layrt {float:right; width:240px;}
+.mr260 {margin-right:260px;}
+.pr20 {padding-right:20px;}
+.pt20 {padding-top:20px;}
+/* style */
+.mb30 {margin-bottom:30px;}
+.mod1  {height:220px; background:url(img/actbg1.png) repeat; overflow:hidden; border-bottom:1px solid #c2cace;}
+.mod2 {border:1px solid #dce5e9; background:#fff; padding:24px 20px 35px; border-bottom:1px solid #c2cace;}
+.modshdow { box-shadow:0 3px 3px #d4dee3;}
+.modft{width:198px; height:14px; background:url(img/modbg1.png) no-repeat; position:absolute; top:0;}
+.modft1 {left:0;}
+.modft2 {background-image:url(img/modbg2.png); right:0;}
+.mod3ft .modft {width:110px; height:13px; background-image:url(img/mod3bg1.png);}
+.mod3ft .modft2 {background-image:url(img/mod3bg2.png);}
+
+.actnav01 {border-bottom:1px solid #b8c3d1;}
+.actnav01 a {display:inline-block; padding: 0 18px; margin-right:5px; background:#7fb2dc; border-radius:6px 6px 0 0; border:1px solid #8c99af; height:28px; font:bold 14px/28px Arial; border-bottom:1px solid #b8c3d1; position:relative; top:1px; color:#fff; text-decoration:none;}
+.actnav01 a.ahover  {background:#fff; color:#0c4281; border:1px solid #b8c3d1; border-bottom:1px solid #fff;}
+
+
+.act_lf {float:left; display:inline;}
+.act_rt {float:right; display:inline;}
+
+
+.blessingLink {width:82px; height:82px; margin-top:21px; background:#7fb2dc; border:1px solid #8c99af; border-radius:6px; text-align:center;}
+.blessingIcon {display:block; width:50px; height:50px; margin:5px auto 0; background:url(img/blessingIcon.png) no-repeat;}
+.blessingNumArea {text-align:center;}
+.blessingNumArea span {display:inline-block; vertical-align:middle; height:25px; overflow:hidden;color:#fff; font:14px/1.5 Arial;}
+.blessingNumArea .blessingNum {text-align:center; padding-right:3px; max-width:50px;}
+
+.h3title {border-bottom:1px solid #d9dce2; padding-bottom:5px;}
+h3 {color:#666; height:16px; font:14px/16px Arial; padding-left:5px; border-left:4px solid #0d4585;}
+
+.actKxFace50 {width:50px; height:50px; border-radius:6px;}
+
+.viewRule {background:#0c4281; height:28px; text-align:center; padding-top:6px; margin-bottom:10px;}
+.viewRuleLink {color:#fff; text-decoration:none; font:bold 14px/1 Arial;}
+.viewRuleLink:hover {color:#fff; text-decoration:underline;}
+
+.modAdvert {height:175px; overflow:hidden;}
+
+h2 {height:39px; background:#7fb2dc; border-radius:3px 3px 0 0 ; color:#fff; font:bold 14px/39px Arial; text-align:center; }
+.mod3 {border:1px solid #dce5e9; background:#fff; padding:15px; border-bottom:1px solid #c2cace;}
+
+.btnDownClient {display:block; width:132px; height:45px; color:#369; font:14px/45px Arial; padding-left:76px; margin:5px auto; text-decoration:none; background:url(img/btnDownClient.png) no-repeat 0 0;}
+.btnAdrio {background-position:0 -55px; margin-top:10px;}
+
+.text_hide { display: inline-block; vertical-align: top; word-wrap: normal; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow:ellipsis; max-width: 100%; _width: 100%; }
+.hotRecordItem {}
+.hotRecordItem li {border-bottom:1px dotted #d4dce1; height:23px; color:#333;}
+.hotRecordItem a,.hotRecordItem span {height:23px; line-height:23px; display: inline-block; vertical-align: middle; word-wrap: normal; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow:ellipsis; }
+.hotRecordItem a { color:#369;  width:40px; padding-right:5px; text-decoration:none;}
+.hotRecordItem span { width:160px;}
+
+
+.viewAwardRules {
+    padding:5px 0;
+    text-align:center;
+}
+.viewAwardRules a {
+    font:14px/1 Arial;
+}
+.btnWard {
+    display:inline-block;
+    color:#fff;
+    height:48px;
+    font:24px/48px 'Microsoft YaHei',Arial;
+    text-align:center;
+    border:1px solid #0e4c91;
+    background:#0d498c;
+    border-radius:6px;
+    text-shadow:1px 1px 1px #06203f;
+    box-shadow:inset 0 1px 0 #3e70a7;
+    width:100%;
+    text-decoration:none;
+}
+.btnWard:hover {color:#fff;}
+
+.colRed {color:red; padding:0 3px;}
+
+.giftItem {}
+.giftItem li {padding:5px 0; color:#333; text-align:center;}
+.giftImg {width:208px; height:115px; display:block; margin:0 auto; border:1px solid #c5ccd7; margin-bottom:5px;}
+
+.giftTips {border-top:1px solid #c5ccd7; font:12px/1.5 Arial; color:#333; padding-top: 15px;}
+
+
